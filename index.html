@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <style>
+        .weekendClass{background-color: yellow !important} 
+        .Weekdays {background-color: green !important} 
+        </style>
+    </head>
+    <body class=container>
+        <form class="form-inline">
+            <fieldset>
+                <legend>Holiday Calendar</legend>
+
+                <input type="text" class="input-small" id="startYear" value="2013" placeholder="StartYear">
+                <input type="text" class="input-small"  id="starMonth" value="10"  placeholder="StarMonth">
+                <input type="text" class="input-small" id="starDay" value="2" placeholder="StarDay">
+                <input type="text" class="input-small"  id="numberOfDays" value="4" placeholder="Number of days">
+                <input type="text" class="input-small"   id="countryCode"  value="US" placeholder="Country Code">           
+                <button type="submit" class="btn"  id="btnSubmit" >Submit</button>
+
+                <div class="container" id="sectionCalendar">                                                           
+                </div>
+            </fieldset>
+        </form>    
+    <script type="text/javascript" src="/bundle.js"></script></body>
+</html>
